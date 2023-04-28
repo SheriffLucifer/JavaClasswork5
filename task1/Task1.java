@@ -1,3 +1,4 @@
+package task1;
 
 // Создать структуру для хранения Номеров паспортов и Фамилий сотрудников организации.
 // 123456 Иванов
@@ -8,7 +9,7 @@
 // 345678 Иванов
 // Вывести данные по сотрудникам с фамилией Иванов.
 
-public class task1 {
+public class Task1 {
     public static void main(String[] args) {
         Passports passports = new Passports();
         passports.add("123456", "Иванов");
